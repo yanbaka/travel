@@ -1,19 +1,19 @@
 <script setup>
     const timelines = ref([
   {
-    time: "",
     content: "相川のおじさんの船で釣り体験",
     memo: "",
+    url: "",
   },
   {
-    time: "11:15",
-    content: "佐渡汽船発",
+    content: "11:15 佐渡汽船発",
     memo: "",
+    url: "",
   },
   {
-    time: "13:23",
-    content: "新潟発新幹線",
+    content: "13:23 新潟発新幹線",
     memo: "",
+    url: "",
   },
 ])
 </script>
@@ -23,25 +23,19 @@
     <table class="table">
       <thead>
         <tr>
-            <th>時間</th>
             <th>予定</th>
             <th>メモ</th>
+            <th>URL</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="(timeline, i) in timelines" :key="i" >
-          <th>{{timeline.time}}</th>
           <td>{{timeline.content}}</td>
           <td>{{timeline.memo}}</td>
+          <th><nuxt-link :to="timeline.url" target="_blank">{{timeline.url}}</nuxt-link></th>
         </tr>
       </tbody>
     </table>
 
 </div>
 </template>
-<style scoped>
-    .table th, .table td {
-        padding: 8px;
-        border: 1px solid #000;
-    }
-</style>

@@ -1,29 +1,29 @@
 <script setup>
     const timelines = ref([
   {
-    time: "",
     content: "二つ亀海水浴場",
     memo: "",
+    url: "",
   },
   {
-    time: "",
-    content: "昼食（大野亀ロッジ）",
-    memo: "https://goo.gl/maps/fSAi4sfdKAMkrbJt8",
+    content: "昼食",
+    memo: "大野亀ロッジ",
+    url: "https://goo.gl/maps/fSAi4sfdKAMkrbJt8",
   },
   {
-    time: "",
     content: "たらい船？",
     memo: "",
+    url: "",
   },
   {
-    time: "",
     content: "宿根木",
     memo: "古民家カフェ",
+    url: "",
   },
   {
-    time: "",
     content: "畑野の温泉",
-    memo: "https://goo.gl/maps/hPDrAP91JuNuJyjg9",
+    memo: "",
+    url: "https://goo.gl/maps/hPDrAP91JuNuJyjg9",
   },
 ])
 </script>
@@ -33,25 +33,19 @@
     <table class="table">
       <thead>
         <tr>
-            <th>時間</th>
             <th>予定</th>
             <th>メモ</th>
+            <th>URL</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="(timeline, i) in timelines" :key="i" >
-          <th>{{timeline.time}}</th>
           <td>{{timeline.content}}</td>
           <td>{{timeline.memo}}</td>
+          <th><nuxt-link :to="timeline.url" target="_blank">{{timeline.url}}</nuxt-link></th>
         </tr>
       </tbody>
     </table>
 
 </div>
 </template>
-<style scoped>
-    .table th, .table td {
-        padding: 8px;
-        border: 1px solid #000;
-    }
-</style>

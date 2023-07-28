@@ -1,34 +1,34 @@
 <script setup>
     const timelines = ref([
   {
-    time: "",
     content: "朝食",
     memo: "",
+    url: "",
   },
   {
-    time: "",
     content: "ひまわり畑",
-    memo: "https://goo.gl/maps/AXPXJQxcP1bTHhGh9",
+    memo: "",
+    url: "https://goo.gl/maps/AXPXJQxcP1bTHhGh9",
   },
   {
-    time: "",
     content: "達者の海水浴場",
     memo: "",
+    url: "",
   },
   {
-    time: "",
     content: "キャッチボール",
     memo: "河原田グラウンド",
+    url: "",
   },
   {
-    time: "",
-    content: "夕食（お寿司）",
+    content: "夕食",
     memo: "「弁慶」か「まるいし」",
+    url: "",
   },
   {
-    time: "",
     content: "花火",
     memo: "",
+    url: "",
   },
 ])
 </script>
@@ -38,25 +38,19 @@
     <table class="table">
       <thead>
         <tr>
-            <th>時間</th>
             <th>予定</th>
             <th>メモ</th>
+            <th>URL</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="(timeline, i) in timelines" :key="i" >
-          <th>{{timeline.time}}</th>
           <td>{{timeline.content}}</td>
           <td>{{timeline.memo}}</td>
+          <th><nuxt-link :to="timeline.url" target="_blank">{{timeline.url}}</nuxt-link></th>
         </tr>
       </tbody>
     </table>
 
 </div>
 </template>
-<style scoped>
-    .table th, .table td {
-        padding: 8px;
-        border: 1px solid #000;
-    }
-</style>
