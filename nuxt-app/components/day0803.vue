@@ -17,8 +17,8 @@
   },
   {
     content: "宿根木",
-    memo: "古民家カフェ",
-    url: "",
+    memo: "茶房 やました",
+    url: "https://goo.gl/maps/5R5A97wWS5sHznQe9",
   },
   {
     content: "畑野の温泉",
