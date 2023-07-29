@@ -26,14 +26,19 @@ const timelines = ref([
     url: "",
   },
   {
+    content: "喜昇堂",
+    memo: "パンを買っておく",
+    url: "https://goo.gl/maps/QHPj3416GBinz3Ro7",
+  },
+  {
     content: "キャッチボール",
     memo: "河原田グラウンド",
     url: "",
   },
   {
     content: "夕食",
-    memo: "焼きとりやじま",
-    url: "https://goo.gl/maps/Y55krDymw1FVaXCn7",
+    memo: "とんかつ中堀",
+    url: "https://goo.gl/maps/SvNtLTm28pf6im6B6",
   },
   {
     content: "花火",

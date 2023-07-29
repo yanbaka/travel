@@ -27,13 +27,18 @@ const timelines = ref([
   },
   {
     content: "昼食",
-    memo: "とんかつ中堀",
-    url: "https://goo.gl/maps/SvNtLTm28pf6im6B6",
+    memo: "元郵便局にできたうどん屋",
+    url: "https://goo.gl/maps/w15FBYmg3q8hB5Jv7",
   },
   {
     content: "太陽堂に陸人のグローブ買いに行く",
     memo: "",
     url: "",
+  },
+  {
+    content: "喜昇堂",
+    memo: "パンを買っておく",
+    url: "https://goo.gl/maps/QHPj3416GBinz3Ro7",
   },
   {
     content: "じいじとキャッチボール",
@@ -42,8 +47,8 @@ const timelines = ref([
   },
   {
     content: "夕食",
-    memo: "元郵便局にできたうどん屋",
-    url: "https://goo.gl/maps/w15FBYmg3q8hB5Jv7",
+    memo: "焼きとりやじま",
+    url: "https://goo.gl/maps/Y55krDymw1FVaXCn7",
   },
 ])
 </script>
