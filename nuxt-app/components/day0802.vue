@@ -17,6 +17,11 @@
   },
   {
     content: "昼食",
+    memo: "フルーツ＆カフェさいとう",
+    url: "https://goo.gl/maps/7Ydystf8jGJaYpXd7",
+  },
+  {
+    content: "スカイライン",
     memo: "",
     url: "",
   },
@@ -27,8 +32,8 @@
   },
   {
     content: "夕食",
-    memo: "「弁慶」か「まるいし」",
-    url: "",
+    memo: "焼きとりやじま", 
+    url: "https://goo.gl/maps/Y55krDymw1FVaXCn7",
   },
   {
     content: "花火",

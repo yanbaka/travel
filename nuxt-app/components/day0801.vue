@@ -42,8 +42,8 @@
   },
   {
     content: "夕食",
-    memo: "",
-    url: "",
+    memo: "元郵便局にできたうどん屋",
+    url: "https://goo.gl/maps/w15FBYmg3q8hB5Jv7",
   },
 ])
 </script>

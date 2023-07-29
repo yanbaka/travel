@@ -6,16 +6,6 @@
     url: "",
   },
   {
-    content: "スカイライン",
-    memo: "",
-    url: "",
-  },
-  {
-    content: "昼食",
-    memo: "元郵便局にできたうどん屋",
-    url: "https://goo.gl/maps/w15FBYmg3q8hB5Jv7",
-  },
-  {
     content: "タコさん公園",
     memo: "プールあり",
     url: "https://goo.gl/maps/drAMzX8uXCJjpWBCA",
@@ -24,6 +14,11 @@
     content: "宿根木",
     memo: "茶房 やました",
     url: "https://goo.gl/maps/5R5A97wWS5sHznQe9",
+  },
+  {
+    content: "たらい船",
+    memo: "",
+    url: "",
   },
   {
     content: "夕食",
