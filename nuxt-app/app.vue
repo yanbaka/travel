@@ -1,6 +1,3 @@
-<script setup>
-
-</script>
 <template>
   <div>
     <h2>宿泊場所</h2>
@@ -18,15 +15,3 @@
     <hr />
   </div>
 </template>
-<style>
-table {
-  width: 100%;
-  table-layout: fixed;
-}
-  .table th, .table td {
-        padding: 8px;
-        border: 1px solid #000;
-  word-wrap: break-word;
-    }
-
-</style>

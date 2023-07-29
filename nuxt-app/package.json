@@ -7,11 +7,13 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "format": "prettier -w 'components/**/*.vue'",
     "deploy": "nuxt generate && firebase deploy"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.0",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "prettier": "^3.0.0"
   }
 }

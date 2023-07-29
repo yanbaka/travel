@@ -1,8 +1,8 @@
 <script setup>
-    const timelines = ref([
+const timelines = ref([
   {
     content: "朝食",
-    memo: "実家？",
+    memo: "",
     url: "",
   },
   {
@@ -32,7 +32,7 @@
   },
   {
     content: "夕食",
-    memo: "焼きとりやじま", 
+    memo: "焼きとりやじま",
     url: "https://goo.gl/maps/Y55krDymw1FVaXCn7",
   },
   {
@@ -43,24 +43,7 @@
 ])
 </script>
 <template>
-<div>
-    <h2>8/2（水）</h2>
-    <table class="table">
-      <thead>
-        <tr>
-            <th>予定</th>
-            <th>メモ</th>
-            <th>URL</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(timeline, i) in timelines" :key="i" >
-          <td>{{timeline.content}}</td>
-          <td>{{timeline.memo}}</td>
-          <th><nuxt-link :to="timeline.url" target="_blank">{{timeline.url}}</nuxt-link></th>
-        </tr>
-      </tbody>
-    </table>
-
-</div>
+  <div>
+    <timeline :dating="'8/2（水）'" :timelines="timelines" />
+  </div>
 </template>
