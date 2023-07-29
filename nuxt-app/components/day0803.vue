@@ -1,6 +1,11 @@
 <script setup>
     const timelines = ref([
   {
+    content: "朝食",
+    memo: "",
+    url: "",
+  },
+  {
     content: "二つ亀海水浴場",
     memo: "",
     url: "",
@@ -11,14 +16,14 @@
     url: "https://goo.gl/maps/fSAi4sfdKAMkrbJt8",
   },
   {
-    content: "たらい船？",
+    content: "河原田で遊ぶ",
     memo: "",
     url: "",
   },
   {
-    content: "宿根木",
-    memo: "茶房 やました",
-    url: "https://goo.gl/maps/5R5A97wWS5sHznQe9",
+    content: "夕食",
+    memo: "実家でBBQ？",
+    url: "",
   },
   {
     content: "畑野の温泉",
