@@ -7,7 +7,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "format": "prettier -w 'components/**/*.vue'",
+    "format": "prettier -w 'src/components/**/*.vue'",
     "deploy": "nuxt generate && firebase deploy"
   },
   "devDependencies": {
