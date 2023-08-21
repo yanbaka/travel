@@ -6,7 +6,12 @@ const timelines = ref([
     url: "",
   },
   {
-    content: "07:12 新幹線",
+    content: "10: 新幹線",
+    memo: "",
+    url: "",
+  },
+  {
+    content: "昼食",
     memo: "",
     url: "",
   },
@@ -16,12 +21,12 @@ const timelines = ref([
     url: "https://nasukogen-rentacar.com/",
   },
   {
-    content: "那須高原 南ヶ丘牧場",
+    content: "13時くらい 那須高原 南ヶ丘牧場",
     memo: "",
     url: "https://goo.gl/maps/xayj5UEDjWCZke8X7",
   },
   {
-    content: "ホテルへ",
+    content: "15:00 ホテルへ",
     memo: "",
     url: "",
   },

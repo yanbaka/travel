@@ -1,6 +1,7 @@
 <script setup>
     const list = [
         { title: '佐渡2023夏', path: '/summer2023' },
+        { title: '熱海2023', path: '/atami2023' },
         { title: '那須2023', path: '/nasu2023' },
     ]
 </script>
