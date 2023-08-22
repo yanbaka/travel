@@ -14,6 +14,8 @@
         { name: '腹巻' },
         { name: '薬💊' },
         { name: 'Suica' },
+        { name: 'IKEAのバッグ' },
+        { name: '子供の歯ブラシ🪥' },
     ]
 </script>
 <template>
