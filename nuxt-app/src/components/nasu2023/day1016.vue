@@ -10,6 +10,16 @@ const timelines = ref([
     memo: "",
     url: "https://goo.gl/maps/JZyATm1QrpYGjCaw8",
   },
+  {
+    content: "18:03 那須塩原発新幹線",
+    memo: "",
+    url: "",
+  },
+  {
+    content: "19:16 東京駅着",
+    memo: "",
+    url: "",
+  },
 ])
 </script>
 <template>
