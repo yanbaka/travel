@@ -2,17 +2,22 @@
 const timelines = ref([
   {
     content: "那須とりっくあーとぴあ",
-    memo: "行かないかも",
+    memo: "行かないかも。ホテルから8分くらい",
     url: "https://goo.gl/maps/LUzdFMrSKty3ksXX6",
   },
   {
-    content: "14:00 那須ハイランドパーク",
+    content: "昼食",
     memo: "",
+    url: "",
+  },
+  {
+    content: "14:00 那須ハイランドパーク",
+    memo: "ホテルから10分くらい",
     url: "https://goo.gl/maps/JZyATm1QrpYGjCaw8",
   },
   {
     content: "18:03 那須塩原発新幹線",
-    memo: "",
+    memo: "那須ハイランドパークから30分くらい",
     url: "",
   },
   {

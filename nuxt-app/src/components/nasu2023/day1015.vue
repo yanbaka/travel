@@ -27,7 +27,7 @@ const timelines = ref([
   },
   {
     content: "13時くらい 那須高原 南ヶ丘牧場",
-    memo: "",
+    memo: "那須高原駅から30分くらい",
     url: "https://goo.gl/maps/xayj5UEDjWCZke8X7",
   },
   {
