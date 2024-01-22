@@ -4,8 +4,8 @@
         { name: '水着👙' },
         { name: 'ゴーグル🥽' },
         { name: '水泳帽' },
-        { name: 'ビーチサンダル🩴' },
         { name: 'パジャマ' },
+        { name: '大人スキーウェア一式' },
         { name: 'バスタオル' },
         { name: 'パソコン💻' },
         { name: 'パソコン充電器' },
@@ -14,21 +14,24 @@
         { name: '腹巻' },
         { name: '薬💊' },
         { name: 'Suica' },
-        { name: 'IKEAのバッグ' },
         { name: '子供の歯ブラシ🪥' },
+    ]
+    const link = [
+        { name: 'トスラブ湯沢バス時刻表', url: 'https://www.its-kenpo.or.jp/documents/shisetsu/hoyou/chokuei/toslove_yuzawa/bus20231216.pdf' },
+        { name: 'トスラブ湯沢レンタルスキー料金表', url: 'https://www.its-kenpo.or.jp/documents/shisetsu/hoyou/chokuei/toslove_yuzawa/rentalsukiing_ryokinhyo.pdf' },
     ]
 </script>
 <template>
   <div>
     <h2>宿泊場所</h2>
-    <nuxt-link to="https://www.itoenhotel.com/hoteloonoya/" target="_blank">ホテル大野屋</nuxt-link>
+    <nuxt-link to="https://www.its-kenpo.or.jp/shisetsu/hoyou/chokuei/toslove_yuzawa/index.html" target="_blank">トスラブ湯沢</nuxt-link>
     <hr />
-    <Atami2023Day0823 />
+    <Ski2024Day0326 />
     <hr />
-    <Atami2023Day0824 />
-    <hr />
-    <Atami2023Day0825 />
+    <Ski2024Day0327 />
     <hr />
     <Baggage title="もちもの" :items="baggage" />
+    <hr />
+    <Links title="リンク" :items="link" />
   </div>
 </template>

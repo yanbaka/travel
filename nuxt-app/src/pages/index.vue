@@ -3,6 +3,7 @@
         { title: '佐渡2023夏', path: '/summer2023' },
         { title: '熱海2023', path: '/atami2023' },
         { title: '那須2023', path: '/nasu2023' },
+        { title: '湯沢スキー2024', path: '/ski2024' },
     ]
 </script>
 <template>

@@ -7,8 +7,9 @@ const props = defineProps({ title: '', items: [] })
         <ul>
             <li v-for="(item, i) in items" :key="i">
                 <label>
-                    <input type="checkbox">
-                    {{item.name}}
+                    <a :href="item.url" target="_blank">
+                        {{item.name}}
+                    </a>
                 </label>
             </li>
         </ul>
@@ -18,5 +19,12 @@ const props = defineProps({ title: '', items: [] })
     ul {
         list-style: none;
         padding-left: 0;
+        li {
+            label {
+                &::before {
+                    content: "・";
+                }
+            }
+        }
     }
 </style>
