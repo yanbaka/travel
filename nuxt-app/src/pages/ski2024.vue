@@ -1,11 +1,16 @@
 <script setup>
+    const confirm = [
+        { name: 'チェックイン前（チェックアウト後）も送迎バス乗れるのか' },
+        { name: 'トスラブ湯沢でリフト券買えるか。または割引券あるのか' },
+        { name: 'エステ予約（利用日の2ヶ月前の20日から申し込み可）' },
+    ]
     const baggage = [
         { name: '浮き輪' },
         { name: '水着👙' },
         { name: 'ゴーグル🥽' },
-        { name: '水泳帽' },
+        { name: '水泳帽🏊‍♂️' },
         { name: 'パジャマ' },
-        { name: '大人スキーウェア一式' },
+        { name: '大人スキーウェア一式⛷' },
         { name: 'バスタオル' },
         { name: 'パソコン💻' },
         { name: 'パソコン充電器' },
@@ -30,7 +35,9 @@
     <hr />
     <Ski2024Day0327 />
     <hr />
-    <Baggage title="もちもの" :items="baggage" />
+    <Checklist title="確認" :items="confirm" />
+    <hr />
+    <Checklist title="もちもの" :items="baggage" />
     <hr />
     <Links title="リンク" :items="link" />
   </div>

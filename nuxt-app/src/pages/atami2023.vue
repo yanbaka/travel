@@ -29,6 +29,6 @@
     <hr />
     <Atami2023Day0825 />
     <hr />
-    <Baggage title="もちもの" :items="baggage" />
+    <Checklist title="もちもの" :items="baggage" />
   </div>
 </template>
