@@ -1,18 +1,18 @@
 <script setup>
 const timelines = ref([
   {
-    content: "XX:XX 税務署前バス",
-    memo: "",
+    content: "06:46 / 07:06 税務署前バス",
+    memo: "07:00 / 07:20 蒲田駅着",
     url: "",
   },
   {
-    content: "XX:XX 大森駅発電車",
-    memo: "",
+    content: "07:41 大森駅発電車",
+    memo: "08:01 東京駅着",
     url: "",
   },
   {
-    content: "XX:XX 東京駅発新幹線",
-    memo: "",
+    content: "08:40 東京駅発新幹線",
+    memo: "09:44 越後湯沢駅着",
     url: "",
   },
   {

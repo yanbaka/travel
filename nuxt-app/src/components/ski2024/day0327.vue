@@ -1,6 +1,16 @@
 <script setup>
 const timelines = ref([
   {
+    content: "09:10 トスラブ湯沢発送迎バス",
+    memo: "09:20 中里スノーリゾート着",
+    url: "",
+  },
+  {
+    content: "10:00〜12:00 陸人スキーレッスン",
+    memo: "中里スキー学校",
+    url: "https://www.yuzawa-nakazato.com/winter/school/nakazato/",
+  },
+  {
     content: "16:20 中里スノーリゾート発送迎バス",
     memo: "16:30 トスラブ湯沢着",
     url: "",
