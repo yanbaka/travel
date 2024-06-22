@@ -21,13 +21,8 @@ const timelines = ref([
     url: "",
   },
   {
-    content: "XX:XX 越後湯沢発新幹線",
-    memo: "",
-    url: "",
-  },
-  {
-    content: "XX:XX 東京駅着",
-    memo: "",
+    content: "18:05 越後湯沢発新幹線",
+    memo: "19:24 東京駅着",
     url: "",
   },
 ])

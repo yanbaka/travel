@@ -6,12 +6,12 @@ const timelines = ref([
     url: "",
   },
   {
-    content: "07:41 大森駅発電車",
+    content: "07:37 蒲田駅発電車",
     memo: "08:01 東京駅着",
     url: "",
   },
   {
-    content: "08:40 東京駅発新幹線",
+    content: "08:30 東京駅発新幹線",
     memo: "09:44 越後湯沢駅着",
     url: "",
   },
