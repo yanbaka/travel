@@ -1,9 +1,9 @@
 <script setup>
 const timelines = ref([
   {
-    content: "",
-    memo: "",
-    url: "",
+    content: "焼き鳥",
+    memo: "夕食",
+    url: "https://tabelog.com/niigata/A1501/A150103/15010985/",
   },
 ])
 </script>

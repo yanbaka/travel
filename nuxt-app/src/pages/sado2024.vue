@@ -19,6 +19,18 @@
         { name: 'ボヌール（パフェ）', url: 'https://maps.app.goo.gl/cPazh2TFdpTiavWq8' },
         { name: 'とんかつ中堀🐖', url: 'https://maps.app.goo.gl/ghQf5cWL5JfdbJ298' },
         { name: '大野亀ロッジ', url: 'https://maps.app.goo.gl/gQonSzf3Aq5hi1Qh6' },
+        { name: '長三郎', url: 'https://maps.app.goo.gl/Cy5F1EHHngt9TMPb7' },
+        { name: '小川のひまわり園🌻', url: 'https://maps.app.goo.gl/htkRgfEmtW9EZTeE6' },
+        { name: '喜昇堂パン工房', url: 'https://maps.app.goo.gl/9pAkgd4mZ2wUmQNs9' },
+        { name: '食事処ひぐち・樋口食堂', url: 'https://maps.app.goo.gl/oN3mKCqJP7h1PtqJ9' },
+        { name: '椎崎温泉', url: 'https://maps.app.goo.gl/Gobi6U1cZbJvDNeg9' },
+        { name: '無名異焼', url: '' },
+    ]
+    const gift = [
+        { name: 'しゅうや',  },
+        { name: 'だいきゆうだい',  },
+        { name: 'はやと',  },
+        { name: '剣🥎',  },
     ]
 </script>
 <template>
@@ -38,5 +50,7 @@
     <Checklist title="もちもの" :items="baggage" />
     <hr />
     <Links title="行きたい場所" :items="link" />
+    <hr />
+    <Checklist title="おみやげ" :items="gift" />
   </div>
 </template>
