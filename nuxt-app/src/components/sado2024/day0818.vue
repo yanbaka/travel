@@ -12,7 +12,7 @@ const timelines = ref([
   },
   {
     content: "10:15 東京駅新幹線発（12:17着）",
-    memo: "",
+    memo: "9号車 12番A席、B席、C席",
     url: "",
   },
   {
