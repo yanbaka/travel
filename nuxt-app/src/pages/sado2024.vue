@@ -14,6 +14,11 @@
         { name: '喘息の機械と薬' },
         { name: 'Suica' },
         { name: '子供の歯ブラシ🪥' },
+        { name: 'グローブ、ボール' },
+        { name: 'UNO' },
+        { name: 'スキー用グローブ' },
+        { name: 'なわとび' },
+        { name: '保険証' },
     ]
     const link = [
         { name: '金井運動公園プール🏊‍♂️', url: 'https://maps.app.goo.gl/Z5mVFn2afW9nfwK66' },

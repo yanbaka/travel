@@ -17,7 +17,32 @@ const timelines = ref([
   },
   {
     content: "12:55 新潟佐渡汽船発（14:02着）",
-    memo: "受付番号: ",
+    memo: "受付番号: 401783D",
+    url: "",
+  },
+  {
+    content: "ソフトクリーム",
+    memo: "",
+    url: "",
+  },
+  {
+    content: "プール下見",
+    memo: "",
+    url: "",
+  },
+  {
+    content: "食堂",
+    memo: "",
+    url: "",
+  },
+  {
+    content: "星空鑑賞",
+    memo: "",
+    url: "",
+  },
+  {
+    content: "温泉",
+    memo: "",
     url: "",
   },
 ])
