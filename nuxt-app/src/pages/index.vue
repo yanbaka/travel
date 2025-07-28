@@ -6,6 +6,7 @@
         { title: '湯沢スキー2024', path: '/ski2024' },
         { title: '佐渡2024夏', path: '/sado2024' },
         { title: '箱根2025冬', path: '/hakone2024' },
+        { title: '佐渡2025夏', path: '/sado2025' },
     ]
 </script>
 <template>
