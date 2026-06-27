@@ -17,6 +17,9 @@
         { name: 'グローブ、ボール' },
         { name: 'UNO' },
         { name: '保険証' },
+        { name: 'ビデオカメラ' },
+        { name: 'ビデオカメラ充電' },
+        { name: 'ポケットwifi' },
     ]
     const link = [
         { name: '金井運動公園プール🏊‍♂️', url: 'https://maps.app.goo.gl/Z5mVFn2afW9nfwK66' },
@@ -26,6 +29,8 @@
         { name: '大野亀ロッジ', url: 'https://maps.app.goo.gl/gQonSzf3Aq5hi1Qh6' },
         { name: '喜昇堂パン工房', url: 'https://maps.app.goo.gl/9pAkgd4mZ2wUmQNs9' },
         { name: '椎崎温泉', url: 'https://maps.app.goo.gl/Gobi6U1cZbJvDNeg9' },
+        { name: '古民家空間 京町亭', url: 'https://maps.app.goo.gl/56ajezuvzqjQAveX9' },
+        { name: '金福', url: 'https://maps.app.goo.gl/V7UJpdxken1RwL6B7'},
     ]
     const gift = [
         { name: 'だいきゆうだい',  },
