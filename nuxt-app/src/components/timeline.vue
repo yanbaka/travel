@@ -15,7 +15,7 @@ const props = defineProps({ dating: "", timelines: [] })
       <tbody>
         <tr v-for="(timeline, i) in timelines" :key="i">
           <td>{{ timeline.content }}</td>
-          <td>{{ timeline.memo }}</td>
+          <td style="white-space: pre-line">{{ timeline.memo }}</td>
           <th>
             <nuxt-link :to="timeline.url" target="_blank">{{ timeline.url }}</nuxt-link>
           </th>
