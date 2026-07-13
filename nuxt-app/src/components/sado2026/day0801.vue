@@ -7,7 +7,7 @@ const timelines = ref([
   },
   {
     content: "16:30 新潟発新幹線（18:40着）",
-    memo: "",
+    memo: "10号車　4番D席、E席、5番D席、E席",
     url: "",
   },
 ])
