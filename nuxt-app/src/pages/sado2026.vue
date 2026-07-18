@@ -19,10 +19,13 @@
         { name: '保険証' },
         { name: 'ビデオカメラ' },
         { name: 'ビデオカメラ充電' },
+        { name: 'ビデオカメラケーブル' },
         { name: 'ポケットwifi' },
         { name: '犬の抱っこ紐🐕' },
         { name: '地球儀のビーチボール🏖️' },
         { name: '舌下の薬💊' },
+        { name: '夏休みの宿題' },
+        { name: '佐渡に返すタッパー' },
     ]
     const link = [
         { name: '金井運動公園プール🏊‍♂️', url: 'https://maps.app.goo.gl/Z5mVFn2afW9nfwK66' },
