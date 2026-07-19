@@ -2,7 +2,7 @@
 const timelines = ref([
   {
     content: "",
-    memo: "",
+    memo: "森のハイジカレー",
     url: "",
   },
 ])

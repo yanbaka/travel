@@ -37,7 +37,7 @@
         { name: '椎崎温泉', url: 'https://maps.app.goo.gl/Gobi6U1cZbJvDNeg9' },
         { name: '古民家空間 京町亭', url: 'https://maps.app.goo.gl/56ajezuvzqjQAveX9' },
         { name: '金福', url: 'https://maps.app.goo.gl/V7UJpdxken1RwL6B7'},
-        { name: '森のハイジカレー', url: ''},
+        { name: 'さわた図書館', url: 'https://maps.app.goo.gl/cQ5cg4Dp7ryV9iVu5' },
     ]
     const gift = [
         { name: 'だいきゆうだい',  },
