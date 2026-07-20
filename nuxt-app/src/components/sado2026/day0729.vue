@@ -1,7 +1,7 @@
 <script setup>
 const timelines = ref([
   {
-    content: "",
+    content: "18時から、焼き鳥やじま",
     memo: "",
     url: "",
   },
