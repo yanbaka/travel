@@ -17,6 +17,9 @@ logs
 .fleet
 .idea
 
+# Firebase CLI deploy cache
+.firebase
+
 # Local env files
 .env
 .env.*
